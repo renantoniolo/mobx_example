@@ -1,5 +1,5 @@
 # mobx_example
- Exemplo usando o mobX para gerencia de estados.
+ Exemplo usando o mobX para gerenciamento de estados na aplicaÇão Flutter.
  
  # Bibliotecas Utilizadas
   - email_validator: ^1.0.4
