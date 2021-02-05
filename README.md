@@ -1,5 +1,5 @@
 # App verifica e-mail
- Aplicativo usando o `mobX` mobX para gerenciamento de estados na aplicação Flutter.
+ Aplicativo usando o `mobX` para gerenciamento de estados na aplicação Flutter.
  
   ### Projeto desenvolvido ultilizando:
   - [x] Flutter
