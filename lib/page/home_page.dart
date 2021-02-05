@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:mobx/mobx.dart';
 import 'package:mobx_example/controller/email_controller.dart';
+import 'package:mobx_example/controller/teste_controller.dart';
 
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final emailController = EmailController();
+    final testeController = TesteController();
 
     return Scaffold(
       body: Padding(
@@ -23,7 +24,7 @@ class HomePage extends StatelessWidget {
                   fontWeight: FontWeight.bold),
             ),
             TextField(
-              onChanged: emailController.changeEmail,
+              onChanged: testeController.changeEmails,
               keyboardType: TextInputType.emailAddress,
               decoration: InputDecoration(
                 labelText: "e-mail",
@@ -42,7 +43,7 @@ class HomePage extends StatelessWidget {
                 ),
                 color: Colors.grey,
                 textColor: Colors.white,
-                onPressed: emailController.enableButton ? () {} : null,
+                onPressed: testeController.teste123 ? () {} : null,
               ),
             )
           ],
